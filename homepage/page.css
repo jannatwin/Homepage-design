@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main_menu {
+  background-color: rgb(124, 144, 112);
+  position: relative;
+  z-index: 2;
+}
+
+#main_menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+
+}
+
+#main_menu li {
+  display: inline-block;
+}
+
+#main_menu li a {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: block;
+  padding: 18px 40px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+#main_menu li a:hover {
+  background-color: #fee8b0;
+  color: black;
+}
+
+.navigate {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  z-index: 3;
+  position: fixed;
+  z-index: 1000;
+}
+
+.navigate img {
+  margin-top: 0px;
+  width: 100%;
+  position: relative;
+}
+
+.Tittel {
+  background: url(bg1.png);
+  width: 84.2%;
+  height: 100%;
+  padding: 250px 120px;
+  position: relative;
+  background-size: cover;
+  z-index: 1;
+}
+
+h1 {
+  color: rgb(69, 107, 80);
+  font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 90px;
+  letter-spacing: 5px;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(69, 107, 80);
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+
+}
+
+.event {
+  text-align: center;
+  color: rgb(69, 107, 80);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  letter-spacing: 4px;
+}
+
+.intro {
+  background-color: white;
+  width: 900px;
+  height: 600px;
+  position: absolute;
+  top: 1000px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
+
+.intro h1 {
+  font-size: 50px;
+  letter-spacing: 15px;
+  margin-top: 25px;
+}
+
+.intro p {
+  color: rgb(69, 107, 80);
+  margin-top: 8px;
+}
+
+.intro img {
+
+  height: 400px;
+  width: 400px;
+  margin-top: 36px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.speech {
+  top: 160px;
+  left: 450px;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  font-size: 18px;
+  color: rgb(69, 107, 80);
+  padding: 15px 20px;
+  word-spacing: 10px;
+}
+
+.speech h1 {
+  text-align: left;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.speech button {
+  background-color: rgb(124, 144, 112);
+  height: 40px;
+  margin-top: 20px;
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.speech button:hover {
+  background-color: #f7f2e5;
+  color: black;
+  transition: 0.5s;
+
+}
+
+.bg {
+  background-color: rgb(232, 225, 205);
+  height: 700px;
+
+
+}
+
+.bgimg {
+  height: 600px;
+  background: url(bg2.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-attachment: fixed;
+  position: relative;
+
+}
+
+.planning {
+  background-color: white;
+  height: 200px;
+  width: 500px;
+  margin-left: 500px;
+  position: absolute;
+  padding: 20px;
+  top: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.planning h1 {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.planning p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+}
+
+.planning button {
+  background-color: rgb(124, 144, 112);
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 430px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+
+}
+
+.planning button:hover {
+  background-color: #f7f2e5;
+  color: black;
+  transition: 0.5s;
+
+}
+
+.bg2 {
+  background-color: #f7f2e5;
+  height: 700px;
+  position: relative;
+
+}
+.menu {
+  background-color: white;
+  height: 300px;
+  width: 1000px;
+  position: absolute;
+  top: 150px;
+  left: 250px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  right: 50px;
+
+}
+
+.btn {
+
+
+  width: 850px;
+  top: 440px;
+  left: 310px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.btn button {
+  background-color: rgb(124, 144, 112);
+  height: 40px;
+  width: 200px;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 15px;
+}
+
+.btn button:hover {
+  background-color: #f7f2e5;
+  color: black;
+  transition: 0.5s;
+}
+
+.content {
+  background-color: rgb(159, 174, 151);
+  ;
+  height: 100px;
+  padding: 20px 0px;
+}
+
+.content h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.content p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: white;
+}
+
+footer {
+  background-color: #f7f2e5;
+}
+
+.footerContainer {
+  width: 1378px;
+  padding: 70px;
+
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  color: rgb(124, 144, 112);
+
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(124, 144, 112);
+  ;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.socialIcons a i {
+  font-size: 30px;
+  color: black;
+  opacity: 0, 9;
+}
+
+.socialIcons a:hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+
+.footerNav {
+  margin: 30px 0;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.footerNav ul li a {
+  color: rgb(69, 107, 80);
+  margin: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  opacity: 0.7;
+  transition: 0.5s;
+
+}
+
+.footerNav ul li a:hover {
+  opacity: 1;
+  color: #000;
+}
+
+.footerBottom {
+  background-color: rgb(69, 107, 80);
+  padding: 10px;
+  text-align: center;
+}
+
+.footerBottom p {
+  color: white;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+  .footerNav ul {
+    flex-direction: column;
+  }
+
+  .footerNav ul li {
+
+    text-align: center;
+    margin: 10px;
+  }
+
+  .socialIcons a {
+    padding: 8px;
+    margin: 4px;
+  }
+}
